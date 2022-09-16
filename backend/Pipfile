@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "==2.1.2"
+flask-restx = ">=0.5.1"
+flask-sqlalchemy = "*"
+flask-jwt-extended = "*"
+python-decouple = "*"
+werkzeug = "==2.1.2"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
